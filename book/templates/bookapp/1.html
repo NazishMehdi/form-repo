@@ -1,0 +1,17 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1 style="color:red"><u> Book Details </u><h1>
+      {% for x in bk%}
+      <h2> Title:{{x.title}}</h2>
+      <h2> Author:{{x.author}}</h2>
+      <h2> ISBN:{{x.ISBN}}</h2>
+      <h2> DateOfPublish:{{x.date}}</h2>
+      <h2> CopiesSold:{{x.noOfCopiesSold}}</h2>
+      {% endfor %}
+  </body>
+</html>>
